@@ -3,46 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Tyler Roman</title>
+    <title>Audi RS 3 | Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="site-header">
+        <nav class="main-nav">
+            <a class="logo" href="index.html">Audi RS 3</a>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="performance.html">Performance</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav>
-        <div class="nav-left">tyler_roman();</div>
-        <div class="nav-center">
-            <a href="index.html" class="active">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <div class="nav-right">
-        <a href="https://www.linkedin.com/in/tyler-roman-742350255/" target="_blank" rel="noopener noreferrer">
-            <img src="pictures/linkedIn.png" alt="LinkedIn" style="width:30px; height:30px;">
-        </a> 
-        <a href="https://github.com/romantyler99" target="_blank" rel="noopener noreferrer">
-            <img src="pictures/logo_github.png" alt="GitHub" style="width:30px; height: 30px;">
-        </a>
-    </div>
-    </nav>  
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <span class="hero-highlight">Compact Supersport</span>
+                <h1>Audi RS 3 unleashed</h1>
+                <p>The Audi RS 3 is the distilled essence of Audi Sport engineering. Its wide stance, quattro all-wheel drive, and charismatic five-cylinder engine combine to deliver a compact performance car with the soul of a rally champion.</p>
+                <p class="section-text">Built for drivers who demand precision without sacrificing practicality, the RS 3 delivers daily comfort with a soundtrack that stirs every enthusiast's pulse.</p>
+                <ul class="feature-list">
+                    <li>2.5 TFSI five-cylinder turbo with a distinctive warble.</li>
+                    <li>Torque splitter for controlled, rear-biased agility.</li>
+                    <li>Driver-focused cockpit with Audi Virtual Cockpit plus.</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1630409357054-241c61e159d9?auto=format&fit=crop&w=1200&q=80" alt="Audi RS 3 on a mountain road at sunset">
+            </div>
+        </section>
 
-    <div class="custom-cursor"></div>
+        <section>
+            <div class="highlight-card">
+                <h2 class="section-title">Everyday usability, track-ready response</h2>
+                <p class="section-text">The RS 3 is engineered to conquer commutes and canyon roads alike. Adaptive dampers absorb rough pavement while RS Drive modes transform the chassis into a razor-sharp companion when you crave exhilaration.</p>
+                <p class="section-text">Audi's legendary quattro technology now features a torque splitter that actively distributes power between the rear wheels, creating confident grip on snow and playful rotation on dry tarmac.</p>
+            </div>
+        </section>
 
-    <section class="hero">
-        <div class="hero-text">
-            <p class="highlight">Hello World, I’m</p>
-            <h1>Tyler Roman</h1>
+        <section class="detail-grid">
+            <article class="detail-card">
+                <h3>Iconic heritage</h3>
+                <p>The odd-fire cadence of the five-cylinder pays homage to Audi's Group B rally dominance while modern enhancements keep the RS 3 at the front of the performance pack.</p>
+            </article>
+            <article class="detail-card">
+                <h3>Technology tuned for drivers</h3>
+                <p>RS-spec displays, telemetry readouts, and customizable drive profiles make the cabin a command center for every journey.</p>
+            </article>
+            <article class="detail-card">
+                <h3>Confidence in all conditions</h3>
+                <p>Whether you're carving snowy switchbacks or setting lap times, the RS 3's all-wheel drive traction delivers confidence when the weather turns challenging.</p>
+            </article>
+        </section>
+    </main>
 
-            <p class="highlight">
-                <span id="animated-text"></span>
-            </p>
-
-            <p class= "hero-welcome">Welcome to my personal portfolio. 😊</p>
-        </div>
-        <div class="hero-image">
-            <img src="pictures/portrait.jpeg" alt="Tyler Roman">
-        </div>
-    </section>
-    <script src="script.js"></script>
+    <footer>
+        &copy; 2024 Audi RS 3 Enthusiast Guide
+    </footer>
 </body>
 </html>
