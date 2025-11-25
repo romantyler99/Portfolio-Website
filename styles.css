@@ -336,6 +336,12 @@ body {
     color: white;
     margin-bottom: 10px;
 }
+.projects-pictures {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto; /* centers image and adds spacing below */
+}
 
 .project-description {
     color: #cccccc;
